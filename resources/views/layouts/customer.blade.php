@@ -25,7 +25,7 @@
             <div class="container">
                 <ul class="nav nav-pills justify-content-end">
                     <li class="nav-item mt-2">
-                        <a class="nav-link bg-dark text-light text-uppercase" href=""><i class="fas fa-user"></i> Seller Sign In</a>
+                        <a class="nav-link bg-dark text-light text-uppercase" href="{{ route('seller.home') }}"><i class="fas fa-user"></i> Seller Sign In</a>
                     </li>
                 </ul>
                 <div class="justify-content-center mt-2">
