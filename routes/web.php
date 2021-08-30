@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('customer');
-});
+// Customer
+Route::get('/', [App\Http\Controllers\CustomerController::class, 'index'])->name('customer.home');
+// /Customer
+
+// Seller
+Route::get('/seller/home', [App\Http\Controllers\SellerController::class, 'index'])->name('seller.home');
+// /Seller
